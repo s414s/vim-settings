@@ -1,0 +1,90 @@
+{
+    "editor.tabSize": 4,
+    "editor.stickyTabStops": true,
+    "explorer.confirmDelete": false,
+    //"workbench.colorTheme": "Ayu Dark Bordered",
+    "editor.wordWrap": "on",
+    // Vim setup
+    "vim.searchHighlightColor": "rgba(150, 255, 255, 0.3)",
+    "vim.leader": "<space>",
+    "vim.easymotion": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.hlsearch": true,
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["d", "f"],
+            "after": ["<Esc>"]
+        }
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [ "<leader>", "s" ],
+            "after": [],
+            "commands": [ { "command": "workbench.action.files.save" } ]
+        },
+        {
+            "before": [ "<leader>", "i" ],
+            "after": [],
+            "commands": [ { "command": "workbench.action.terminal.focus" } ]
+        },
+        {
+            "before": [ "<leader>", "u" ],
+            "after": [],
+            "commands": [ { "command": "workbench.action.focusActiveEditorGroup" } ]
+        },
+        {
+            "before": [ "<leader>", "p" ],
+            "after": [],
+            "commands": [ { "command": "workbench.action.quickOpen" } ]
+        },
+        {
+            "before": [ "<leader>", "o" ],
+            "after": [],
+            "commands": [ { "command": "workbench.action.quickOpen" } ]
+        },
+        {
+            "before": [ "<leader>", "n" ],
+            "after": [],
+            "commands": [
+                { "command": "workbench.action.terminal.toggleTerminal" } ]
+        },
+        {
+            "before": [ "<leader>", "v" ],
+            "after": [],
+            "commands": [ { "command": "workbench.action.splitEditor" } ]
+        },
+        {
+            "before": [ "<leader>", "h" ],
+            "after": [],
+            "commands": [ { "command": "workbench.action.focusFirstEditorGroup" } ]
+        },
+        {
+            "before": [ "<leader>", "l" ],
+            "after": [],
+            "commands": [ { "command": "workbench.action.focusSecondEditorGroup" } ]
+        },
+        {
+            "before": [ "<C-n>" ],
+            "after": [],
+            "commands": [ { "command": ":nohl" } ]
+        },
+        {
+            "before": ["n"],
+            "after": ["c","i","w"]
+        }
+    ],
+    "vim.handleKeys": {
+        "<C-d>": true,
+        "<C-s>": false,
+        "<C-z>": false,
+        "<C-c>": false,
+        "<C-v>": false
+    },
+    "vim.useCtrlKeys": false,
+    "workbench.colorTheme": "One Dark Pro Darker",
+    "[python]": {
+        "editor.formatOnType": true
+    }
+
+}
